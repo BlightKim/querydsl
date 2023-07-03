@@ -1,15 +1,11 @@
-package study.datajpa.entity;
+package study.querydsl.entity;
 
-import static javax.persistence.FetchType.*;
+import lombok.*;
 
-import java.util.Objects;
 import javax.persistence.*;
+import java.util.Objects;
 
-import lombok.AccessLevel;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import static javax.persistence.FetchType.LAZY;
 
 @Entity
 @Getter
